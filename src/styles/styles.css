@@ -1,0 +1,121 @@
+html {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container * {
+    margin-left: 3.5vw;
+}
+.container #robocode__logo {
+    margin-left: 4vw;
+}
+.container h4 {
+    text-align: center;
+    font-size: 12px;
+    margin-left: -0.3vw;
+}
+.container .adv__slogan {
+    margin-top: 35px;
+    background-color: #1771fd;
+    padding: 6px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.container .adv__slogan h1 {
+    color: #fff;
+}
+.container .adv__slogan p {
+    color: #e4e0e0;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#robocode__logo {
+    display: block;
+    width: 80vw;
+}
+
+.poll__info {
+    border: 1px solid #656565;
+    border-radius: 10px;
+}
+.poll__info form {
+    margin-left: 0;
+}
+.poll__info input {
+    margin-left: 8vw;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: #656565;
+    border-radius: 7px;
+    border: 1px solid #656565;
+}
+.poll__info .form__approve {
+    text-align: center;
+    margin: -3px 25px 20px 0;
+}
+.poll__info button {
+    margin-left: 8vw;
+    font-size: 24px;
+    background-color: #1771fd;
+    color: #fff;
+    border: 1px solid #e6e2e2;
+    border-radius: 10px;
+    padding: 10px 42px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.education__info h4 {
+    margin-top: 40px;
+    margin-left: 4vw;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.education__info .education__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.education__info .education__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.education__info .education__item::before {
+    content: "";
+    flex: 0 0 32px;
+    height: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.education__info .first::before {
+    background-image: url("/robocode_shuliavka/src/assets/school.png");
+    margin-top: -10px;
+}
+.education__info .second::before {
+    background-image: url("/robocode_shuliavka/src/assets/study.png");
+    margin-top: -5px;
+}
+.education__info .third::before {
+    background-image: url("/robocode_shuliavka/src/assets/it.png");
+}
+.education__info .fourth::before {
+    background-image: url("/robocode_shuliavka/src/assets/money.png");
+}
+
+
